@@ -13,7 +13,9 @@ var app = express();
 
 var mongoose=require('mongoose')
 
-mongoose.connect('mongodb://localhost/machine')
+//mongoose.connect('mongodb://localhost/machine')
+
+mongoose.connect('mongodb+srv://jMdWvOKqaxyocU97:jMdWvOKqaxyocU97@cluster0.cca9k.mongodb.net/machine?retryWrites=true&w=majority')
 
 var cors=require('cors')
 
